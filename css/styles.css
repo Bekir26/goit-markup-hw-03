@@ -1,0 +1,123 @@
+.body-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+.title-one {
+    font-weight: bold;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+}
+.title-two {
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+.title-three {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    color: #2e2f42 ;
+}
+.button-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    font-family: "Roboto", sans-serif;
+    background-color: #4D5AE5;
+    letter-spacing: 0.04em;
+    color: #ffffff ;
+}
+.button-text:focus {
+    background-color: #404BBF;
+}
+.button-text:hover {
+    background-color: #404BBF;
+}
+.button-text {
+    cursor: pointer;
+}
+.nav-text {
+    text-decoration: none;
+    color: black;
+    
+}
+.logo-text {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:  #4d5ae5;
+    font-family:  "Raleway", sans-serif;
+    line-height: 1.17;
+
+}
+.span-text {
+    color:  #2e2f42;
+
+}
+.section-one-text {
+    background-color: #2e2f42;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff ;
+
+}
+.paragraph-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
+.section-three-text {
+    background-color: #F4F4FD;
+
+}
+.list-text {
+    background-color: #FFFFFF;
+}
+.footer-text {
+    background-color: #2e2f42;
+    
+
+}
+.nav-lists-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.nav-lists-text:hover {
+    color: #404bbf;
+}
+.nav-lists-text:focus {
+    color: #404bbf;
+}
+.address-list {
+    font-style: normal;
+}
+.contacts-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:  #434455;
+}
+.contacts-text:hover {
+    color:  #404bbf ;
+}
+.contacts-text:focus {
+    color: #404bbf;
+}
