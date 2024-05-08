@@ -61,6 +61,8 @@
 .nav-text {
     text-decoration: none;
     color: black;
+    display: flex;
+    align-items: center;
     
 }
 .logo-text {
@@ -73,6 +75,7 @@
     line-height: 1.17;
     display: inline-block;
     margin-bottom: 16px;
+    margin-right: 76px;
 
 }
 .span-text {
@@ -116,6 +119,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 .nav-lists-text:hover {
     color: #404bbf;
@@ -125,6 +129,8 @@
 }
 .address-list {
     font-style: normal;
+    display: flex;
+    gap: 40px;
 }
 .contacts-text {
     font-size: 16px;
@@ -199,11 +205,19 @@ gap: 24px;
     max-width: 264px;
 }
 .container {
-
+    width: 1158px;
+    padding: 0 15px;
 }
 .unordered-lists-text {
 
 }
 .our-portfolio-lists {
     width: calc((100% - 48px) / 3);
+}
+.header-text {
+    border-bottom: 1px solid #e7e9fc;
+}
+.menu-list {
+    display: flex;
+    gap: 40px;
 }
