@@ -80,6 +80,7 @@
 }
 .span-text {
     color:  #2e2f42;
+   
 
 }
 .section-one-text {
@@ -105,7 +106,7 @@
 .list-text {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .footer-text {
     background-color: #2e2f42;
@@ -137,6 +138,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:  #434455;
+   
 }
 .contacts-text:hover {
     color:  #404bbf ;
@@ -144,9 +146,7 @@
 .contacts-text:focus {
     color: #404bbf;
 }
-.navbar-container {
-    display: flex;
-}
+
 .section-two-text {
     padding: 120px 0;
 }
@@ -157,7 +157,7 @@ display: flex;
 gap: 24px;
 }
 .section-two-lists {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 
@@ -189,6 +189,7 @@ gap: 24px;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    
 }
 
 .app-container {
@@ -207,6 +208,8 @@ gap: 24px;
 .container {
     width: 1158px;
     padding: 0 15px;
+    margin: 0 auto;
+    
 }
 .unordered-lists-text {
 
@@ -220,4 +223,7 @@ gap: 24px;
 .menu-list {
     display: flex;
     gap: 40px;
+}
+.navbar-container {
+    display: flex;
 }
