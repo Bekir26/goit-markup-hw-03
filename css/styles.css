@@ -128,10 +128,9 @@
 .nav-lists-text:focus {
     color: #404bbf;
 }
-.address-list {
+.contacts-list {
     font-style: normal;
-    display: flex;
-    gap: 40px;
+    
 }
 .contacts-text {
     font-size: 16px;
@@ -227,4 +226,9 @@ gap: 24px;
 .navbar-container {
     display: flex;
     
+}
+.e-mail-telephone-list {
+    display: flex;
+    gap: 40px;
+
 }
