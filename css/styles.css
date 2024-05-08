@@ -157,7 +157,7 @@ display: flex;
 gap: 24px;
 }
 .section-two-lists {
-    width: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 
@@ -226,4 +226,5 @@ gap: 24px;
 }
 .navbar-container {
     display: flex;
+    
 }
