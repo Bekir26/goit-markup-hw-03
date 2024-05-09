@@ -240,7 +240,7 @@ gap: 24px;
     letter-spacing: 0.02em;
     color:  #434455;
 }
-.visually-hidden {
+.visually-hidden:not(:focus):not(:active) {
   border: 0;
   clip: rect(0 0 0 0);
   height: auto;
