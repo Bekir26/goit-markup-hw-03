@@ -240,10 +240,3 @@ gap: 24px;
     letter-spacing: 0.02em;
     color:  #434455;
 }
-.visually-hidden:not(:focus):not(:active) {
- position: absolute;
- left: -9999px;
- width: 1px;
- height: 1px;
- overflow: hidden;
-}
