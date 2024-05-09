@@ -55,9 +55,8 @@
 .button-text:hover {
     background-color: #404BBF;
 }
-.button-text {
-    cursor: pointer;
-}
+
+
 .nav-text {
     text-decoration: none;
     color: black;
@@ -208,9 +207,6 @@ gap: 24px;
 }
 .container {
     width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-    
 }
 .unordered-lists-text {
 
@@ -227,7 +223,8 @@ gap: 24px;
 }
 .navbar-container {
     display: flex;
-    
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .contact {
     font-style: normal;
