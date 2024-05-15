@@ -1,3 +1,10 @@
+*, 
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .body-text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -60,6 +67,7 @@
   color: black;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .logo-text {
   font-weight: 700;
@@ -98,6 +106,8 @@
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
   flex-basis: calc((100% - 72px) / 4);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+  0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .footer-text {
   background-color: #2e2f42;
@@ -140,7 +150,7 @@
   display: flex;
   gap: 24px;
 }
-.unordered-lists-text .section-two-lists {
+.section-two-lists {
     width: calc((100% - 72px) / 4);
     flex-basis: calc((100% - 72px) / 4);
 }
@@ -232,3 +242,6 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+img {
+    display: block;
+  }
